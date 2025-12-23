@@ -7,7 +7,58 @@ This project presents a markerless computer vision–based system for automated 
 The pipeline integrates computer vision, biomechanical modeling, and time-series data analysis to estimate flexion angles of the Metacarpophalangeal (MCP), Proximal Interphalangeal (PIP), and Distal Interphalangeal (DIP) joints of the index finger. The project is designed for applications in tele-rehabilitation, biomechanics research, and healthcare analytics.
 
 ---
+## Analysis of Dynamic Finger Joint Angles During a Monitored Session
 
+1.0 Introduction and Overview
+
+This document provides a detailed narrative interpretation of graphical data representing the dynamic flexion angles of the Metacarpophalangeal (MCP) and Proximal Interphalangeal (PIP) joints over a nine-second period. The strategic analysis of such data is fundamental to understanding the complex, coordinated patterns of finger movement. The analysis begins with both joints in a state of partial flexion, from which they initiate their distinct cyclical patterns. This analysis will first deconstruct the individual movement characteristics of each joint before conducting a comparative assessment of their dynamics. We begin with a detailed examination of the MCP joint.
+
+2.0 Analysis of Metacarpophalangeal (MCP) Joint Dynamics
+
+The Metacarpophalangeal (MCP) joint, commonly known as the knuckle joint, facilitates the primary flexion and extension of the finger relative to the palm. Tracking its motion is crucial for assessing large-scale finger articulation. This section breaks down the specific kinematic patterns observed for the MCP joint during the monitored session.
+
+The key dynamic characteristics of the MCP joint, represented by the blue line in the source data, are as follows:
+
+* Observed Range of Motion (ROM): A measured range of motion of 50.0°.
+* Peak and Trough Flexion: An approximate peak flexion of ~65° and trough flexion of ~15°.
+* Cyclical Pattern: A smooth, periodic motion completing approximately 1.5 cycles, with an approximate cycle period of 4.5 seconds (peak-to-peak).
+* Contextual Performance: The peak flexion of ~65° remains significantly below the indicated "Normal MCP Flexion Limit" of 90°, suggesting the task did not require the joint's maximum flexion capacity.
+
+We now proceed to the analysis of the second joint involved in this coordinated movement, the PIP joint.
+
+3.0 Analysis of Proximal Interphalangeal (PIP) Joint Dynamics
+
+The Proximal Interphalangeal (PIP) joint is the second joint of the finger, responsible for curling the middle phalanx. Its movement profile provides critical insight into the finer aspects of finger articulation and grip formation. This section will analyze its specific kinematics as depicted in the data.
+
+Based on the orange line data from the provided graph, the key dynamic characteristics of the PIP joint are synthesized below:
+
+* Observed Range of Motion (ROM): A measured range of motion of 40.0°.
+* Peak and Trough Flexion: An approximate peak flexion of ~50° and trough flexion of ~10°.
+* Cyclical Pattern: A smooth, periodic motion completing two full cycles, with an approximate cycle period of 4.0 seconds (peak-to-peak).
+
+The following section will now compare and contrast the dynamic behaviors of both the MCP and PIP joints to understand their interplay.
+
+4.0 Comparative Analysis of MCP and PIP Joint Kinematics
+
+Understanding the relationship, timing, and magnitude differences between the MCP and PIP joints is critical for interpreting the overall coordination of the finger's motion. While individual joint analysis provides valuable data, a comparative view reveals the nature of the neuromuscular control strategy employed. The table below provides a direct quantitative comparison of the key metrics for both joints.
+
+Metric	MCP Joint	PIP Joint
+Observed Range of Motion (ROM)	50.0°	40.0°
+Approximate Peak Flexion	~65°	~50°
+Approximate Trough Flexion	~15°	~10°
+Approximate Period	~4.5 seconds	~4.0 seconds
+
+Beyond these quantitative differences, a qualitative analysis of the two waveforms reveals a crucial relationship. Although beginning from a nearly identical posture, the movements of the two joints are clearly asynchronous, or out of phase. In each cycle, the PIP joint consistently reaches its peak and trough flexion before the MCP joint. This phase shift creates a wave-like closing and opening of the finger. This sequential recruitment of joints is biomechanically efficient for tasks like grasping, allowing the distal parts of the finger to first position themselves around an object before the larger, more powerful proximal joint provides clamping force.
+
+5.0 Summary of Key Observations
+
+The primary takeaways from the kinematic analysis are as follows:
+
+1. Distinct Ranges of Motion: The MCP joint demonstrated a greater range of motion (50.0°) compared to the PIP joint (40.0°), indicating it undergoes a larger angular displacement during the activity.
+2. Asynchronous Coordination: The relationship between the joints is periodic but asynchronous, with a clear phase lag where the MCP joint's movements follow the PIP joint's movements, producing a sequential, wave-like articulation.
+3. Sub-maximal Flexion: The MCP joint's peak flexion remained well within its normal physiological limits, indicating the observed task was a controlled, cyclical motion rather than a forceful, maximum-exertion grip.
+
+---
 ## Objectives
 
 * Perform real-time, markerless hand joint tracking from video input
