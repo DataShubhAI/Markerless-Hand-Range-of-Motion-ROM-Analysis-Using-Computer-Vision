@@ -7,7 +7,13 @@ This project presents a markerless computer vision–based system for automated 
 The pipeline integrates computer vision, biomechanical modeling, and time-series data analysis to estimate flexion angles of the Metacarpophalangeal (MCP), Proximal Interphalangeal (PIP), and Distal Interphalangeal (DIP) joints of the index finger. The project is designed for applications in tele-rehabilitation, biomechanics research, and healthcare analytics.
 
 ---
+## Functional Demonstration
 
+A short demonstration video showing real-time hand landmark detection, joint angle estimation, and ROM visualization during a monitored session.
+
+[Click here to view the functional demonstration video](https://notebooklm.google.com/notebook/91810416-1c30-4cf9-a54e-ad7fffaf20d3?artifactId=ecf178f0-ab4c-4b83-9ab9-f97636059ef4)
+
+---
 ## Analysis of Dynamic Finger Joint Angles During a Monitored Session
 
 ### 1.0 Introduction
