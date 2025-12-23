@@ -16,8 +16,7 @@ This section presents a detailed analytical interpretation of time-series kinema
 
 Both joints begin the session in a partially flexed posture and subsequently exhibit periodic motion patterns. The analysis is structured to first examine the individual kinematic behavior of each joint, followed by a comparative assessment to understand their coordinated dynamics.
 
-<img width="421" height="441" alt="Screenshot 2025-12-23 at 2 23 19 PM" src="https://github.com/user-attachments/assets/b3e6a9b9-4ab6-409c-8a03-0b3fb280036d" />
-<img width="1200" height="600" alt="Figure_4" src="https://github.com/user-attachments/assets/7a9c84cc-daa3-429c-90d6-c857d75ed7ca" />
+![resultt](https://github.com/user-attachments/assets/034ff256-5712-46bd-82cf-1b1bb0278a3e)
 <img width="3573" height="2837" alt="Mind Map" src="https://github.com/user-attachments/assets/71d8245f-8b04-4352-897d-3b43408deaa9" />
 <img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/19847613-ace0-4533-ba50-dd7a357a9c81" />
 
@@ -214,10 +213,13 @@ python plot_results.py
 ## Author
 
 Shubham Yadav
-B.S. in Computer Science and Data Analysis
+
 Indian Institute of Technology Patna
 
 Interests: Data Analytics, Computer Vision, Machine Learning, Biomechanics
+
 GitHub: [https://github.com/DataShubhAI](https://github.com/DataShubhAI)
+
+LinkedIn:https://www.linkedin.com/in/shubham-yadav-98a0a4286/
 
 ---
