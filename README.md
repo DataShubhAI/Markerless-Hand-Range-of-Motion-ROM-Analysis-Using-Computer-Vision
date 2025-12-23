@@ -11,7 +11,7 @@ The pipeline integrates computer vision, biomechanical modeling, and time-series
 
 A short demonstration video showing real-time hand landmark detection, joint angle estimation, and ROM visualization during a monitored session.
 
-[Click here to view the functional demonstration video](https://notebooklm.google.com/notebook/91810416-1c30-4cf9-a54e-ad7fffaf20d3?artifactId=ecf178f0-ab4c-4b83-9ab9-f97636059ef4)
+[Click here to view the functional demonstration video](https://drive.google.com/file/d/1LTixvxFyYJ3RQx3mix87bdmMPcW5savE/view?usp=sharing)
 
 ---
 ## Analysis of Dynamic Finger Joint Angles During a Monitored Session
