@@ -15,6 +15,7 @@ The pipeline integrates computer vision, biomechanical modeling, and time-series
 This section presents a detailed analytical interpretation of time-series kinematic data representing the dynamic flexion angles of the Metacarpophalangeal (MCP) and Proximal Interphalangeal (PIP) joints during a monitored session of approximately nine seconds. Analyzing such joint-level angular trajectories is essential for understanding coordinated finger motion, neuromuscular control strategies, and functional hand biomechanics.
 
 Both joints begin the session in a partially flexed posture and subsequently exhibit periodic motion patterns. The analysis is structured to first examine the individual kinematic behavior of each joint, followed by a comparative assessment to understand their coordinated dynamics.
+<img width="3573" height="2837" alt="Mind Map" src="https://github.com/user-attachments/assets/71d8245f-8b04-4352-897d-3b43408deaa9" />
 
 ---
 
